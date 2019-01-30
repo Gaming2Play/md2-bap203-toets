@@ -1,5 +1,6 @@
 @extends('layouts.master')
 @section('content')
+    @csrf
     <form>
     <label>Title</label><br>
     <input type="text" placeholder="Title"/><br>
